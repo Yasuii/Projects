@@ -13,9 +13,7 @@ public class PiNthDigit {
         }
         else {
             newPi = newPi.setScale(nthPlace, BigDecimal.ROUND_HALF_EVEN);
+            System.out.println(newPi);
         }
-
-
-        System.out.println(newPi);
     }
 }
